@@ -1,4 +1,4 @@
-import { type Config } from "tailwindcss";
+import type { Config } from "tailwindcss";
 import { fontFamily } from "tailwindcss/defaultTheme";
 
 export default {
@@ -7,6 +7,10 @@ export default {
     extend: {
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
+      },
+      colors: {
+        "background-color": "#101827",
+        "tile-color": "#1f2937",
       },
     },
   },
