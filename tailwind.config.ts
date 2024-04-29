@@ -9,8 +9,8 @@ export default {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
       colors: {
-        "background-color": "#101827",
-        "tile-color": "#1f2937",
+        "background-color": "#000000",
+        "tile-color": "#000000",
       },
     },
   },

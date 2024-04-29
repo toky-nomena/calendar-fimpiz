@@ -19,9 +19,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-background-color text-white">
+    <html lang="en" className="bg-background-color text-white backdrop-blur">
       <body className={`font-sans ${inter.variable}`}>
-        <header className="bg-background-color sticky top-0 z-30 w-full px-2 py-4 shadow-xl sm:px-4">
+        <header className="border-border/40 bg-background/95 supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 px-6 py-4 backdrop-blur">
           <span className="text-xl font-black uppercase">
             Calendrier FIMPIZ {new Date().getFullYear()}
           </span>
